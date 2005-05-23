@@ -19,7 +19,7 @@ The set is an extensive expansion on the default icon theme designed
 by Jakub Steiner.
 
 %description -l pl
-Zestaw jest obszernym rozszerzeniem standardowego tematu stworzonego
+Zestaw jest obszernym rozszerzeniem standardowego motywu stworzonego
 przez Jakuba Streinera.
 
 %prep
@@ -27,8 +27,8 @@ przez Jakuba Streinera.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_iconsdir}/%{realname}
+
 cp -af . $RPM_BUILD_ROOT%{_iconsdir}/%{realname}
 # remove gentoo icons
 rm -f $RPM_BUILD_ROOT%{_iconsdir}/%{realname}/{24x24,48x48,72x72}/apps/gnome-main-menu.png

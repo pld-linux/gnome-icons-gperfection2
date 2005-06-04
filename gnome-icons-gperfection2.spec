@@ -4,12 +4,12 @@
 Summary:	Gperfection2 GNOME Icons
 Summary(pl):	Zestaw ikonek Gperfection2 dla GNOME
 Name:		gnome-icons-gperfection2
-Version:	2.0.5
+Version:	2.0.6
 Release:	1
 License:	GPL
 Group:		X11/Amusements
 Source0:	http://members.shaw.ca/titancreations/gnome/%{realname}-%{version}.tar.bz2
-# Source0-md5:	266ad473407aa0c0cbbad5e553001302
+# Source0-md5:	3049138477d8bd9ff0455e5c51ca0961
 URL:		http://gnome-look.org/content/show.php?content=22989
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -30,8 +30,10 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_iconsdir}/%{realname}
 
 cp -af . $RPM_BUILD_ROOT%{_iconsdir}/%{realname}
+
 # remove gentoo icons
 rm -f $RPM_BUILD_ROOT%{_iconsdir}/%{realname}/{24x24,48x48,72x72}/apps/gnome-main-menu.png
+rm -f $RPM_BUILD_ROOT%{_iconsdir}/%{realname}/{12x12,20x20,24x24,32x32,36x36,48x48}/emblems/emblem-gentoo.png
 
 %clean
 rm -rf $RPM_BUILD_ROOT

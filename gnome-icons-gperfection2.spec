@@ -4,12 +4,12 @@
 Summary:	Gperfection2 GNOME Icons
 Summary(pl):	Zestaw ikonek Gperfection2 dla GNOME
 Name:		gnome-icons-gperfection2
-Version:	2.3
-Release:	3
+Version:	2.5
+Release:	1
 License:	GPL
 Group:		X11/Amusements
 Source0:	http://members.shaw.ca/titancreations/gnome/%{realname}-%{version}.tar.bz2
-# Source0-md5:	d986acad9835c14e5c6bcbd4e1119f62
+# Source0-md5:	8d9a7eede322d9463eae68db19585e67
 Patch0:		%{name}-inherits_gnome.patch
 URL:		http://gnome-look.org/content/show.php?content=22989
 BuildRequires:	gtk+2 >= 2:2.8.6
@@ -55,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_iconsdir}/%{realname}/48x48
 %dir %{_iconsdir}/%{realname}/72x72
 %dir %{_iconsdir}/%{realname}/scalable
-%{_iconsdir}/%{realname}/index.theme
+%{_iconsdir}/%{realname}/12x12/apps
 %{_iconsdir}/%{realname}/12x12/devices
 %{_iconsdir}/%{realname}/12x12/emblems
 %{_iconsdir}/%{realname}/12x12/filesystems
@@ -71,6 +71,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/%{realname}/20x20/emblems
 %{_iconsdir}/%{realname}/20x20/filesystems
 %{_iconsdir}/%{realname}/20x20/gtk
+%{_iconsdir}/%{realname}/20x20/mimetypes
 %{_iconsdir}/%{realname}/20x20/stock
 %{_iconsdir}/%{realname}/24x24/apps
 %{_iconsdir}/%{realname}/24x24/devices
@@ -101,4 +102,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/%{realname}/72x72/filesystems
 %{_iconsdir}/%{realname}/72x72/gtk
 %{_iconsdir}/%{realname}/scalable/filesystems
+
 %{_iconsdir}/%{realname}/icon-theme.cache
+%{_iconsdir}/%{realname}/index.theme

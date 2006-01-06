@@ -4,12 +4,12 @@
 Summary:	Gperfection2 GNOME Icons
 Summary(pl):	Zestaw ikonek Gperfection2 dla GNOME
 Name:		gnome-icons-gperfection2
-Version:	2.5
+Version:	2.5.2
 Release:	1
 License:	GPL
 Group:		X11/Amusements
 Source0:	http://members.shaw.ca/titancreations/gnome/%{realname}-%{version}.tar.bz2
-# Source0-md5:	8d9a7eede322d9463eae68db19585e67
+# Source0-md5:	c28d88e153721653e75f2b69ef585a82
 Patch0:		%{name}-inherits_gnome.patch
 URL:		http://gnome-look.org/content/show.php?content=22989
 BuildRequires:	gtk+2 >= 2:2.8.6

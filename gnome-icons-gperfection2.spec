@@ -2,7 +2,7 @@
 %define		realname gperfection2
 #
 Summary:	Gperfection2 GNOME Icons
-Summary(pl):	Zestaw ikonek Gperfection2 dla GNOME
+Summary(pl.UTF-8):   Zestaw ikonek Gperfection2 dla GNOME
 Name:		gnome-icons-gperfection2
 Version:	2.5.2
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The set is an extensive expansion on the default icon theme designed
 by Jakub Steiner.
 
-%description -l pl
+%description -l pl.UTF-8
 Zestaw jest obszernym rozszerzeniem standardowego motywu stworzonego
 przez Jakuba Streinera.
 

@@ -2,7 +2,7 @@
 %define		realname gperfection2
 #
 Summary:	Gperfection2 GNOME Icons
-Summary(pl.UTF-8):   Zestaw ikonek Gperfection2 dla GNOME
+Summary(pl.UTF-8):	Zestaw ikonek Gperfection2 dla GNOME
 Name:		gnome-icons-gperfection2
 Version:	2.5.2
 Release:	1

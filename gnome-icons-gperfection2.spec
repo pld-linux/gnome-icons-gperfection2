@@ -12,7 +12,7 @@ Source0:	http://members.shaw.ca/titancreations/gnome/%{realname}-%{version}.tar.
 # Source0-md5:	c28d88e153721653e75f2b69ef585a82
 Patch0:		%{name}-inherits_gnome.patch
 URL:		http://gnome-look.org/content/show.php?content=22989
-BuildRequires:	gtk+2 >= 2:2.8.6
+BuildRequires:	gtk-update-icon-cache
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
